@@ -1,0 +1,337 @@
+I lead the Structured Data Research team at Google. I used to be a
+professor of computer science at the University of Washington where I
+started the database group and so I've been working on data integration,
+web data in various aspects for a couple of decades now. My interest right
+now as it pertains to big data is not necessarily big data in terms of
+individual data set sizes but it's more in terms of the number of data sets
+that can come together to provide some insights. In particular what I'm
+interested in is the vast number of interesting data sources that exist on
+the web either just sitting there or behind forms or locked up in
+organizations that can be put on the web. So it's more about the number of
+interesting data sets that makes the problem that I'm interested in
+fascinating.
+
+Thanks for that. I'm wondering if you could outline what you think of
+the new or emerging technology or technologies that we should be aware of.
+So if you think that we're writing the white paper that goes to the
+European Commission and directs their funding program it's an opportunity
+for you to influence that. What would you say are the technologies that we
+should be looking at in the near to medium term that are going to have a
+big impact in the big data space?
+
+I think there a few technologies that are I wouldn't say they're new
+but their application or the scale at which they need to work is new. This
+is having to do with data heterogeneity so you're getting data from many
+independent sources and in order to put them together and get some insights
+you need to be able to reconcile their meaning. This means that you need to
+reconcile entities, different mentions of entities in different data
+sources, you need to know when they're referring to the same real world
+entity, you need to understand schematic differences or ontological
+differences between different data sources. Again, these problems have been
+around forever but now you're dealing with a scale of several orders
+magnitude more data sources than before.
+
+The other thing that makes a big difference here is the ability to
+extract high quality data from the web has changed in a very profound way
+the kinds of things we can do. Today you can go and find couples if you
+like it or triples, depending on your preference, in web documents and open
+information extraction in particular is a technology that is beginning to
+bear fruit but there's a huge amount that can be done there. Another thing
+I'll mention is the fact that we have huge ontologies today such as
+Freebase or any other derivative of Wikipedia and these ontologies are
+interesting in the sense that they have many entities already.  So maybe in
+terms of the schema they're not as rich as some knowledge or presentation
+you'd like them to be but in terms of the number of entities that exist in
+these ontologies they already cross a certain threshold of having enough
+critical mass that you can use them as a place or you can tie in different
+data sets together even if not every entity in your data set is included in
+these things. The final thing I will mention here is also the opportunities
+that come about with crowd sourcing. Today I think nobody expects an
+algorithm to do all the work for you when you put all these data sources
+together. I think there are opportunities to use the crowd, like in
+Mechanical Turk, or even experts or low level experts that can help you
+bridge heterogeneity between data sources. I think this area is just
+starting to emerge right now. Putting together all these things, I think,
+puts us in a very exciting time in terms of large scale data analysis.
+
+Thank. Thanks Alain [sounds like 05:16] I'm interested next in what's
+novel about these technologies. I think you covered some of this; let me
+just check. You're saying there's a set of technologies, reconciling
+entities, aligning these schematic along ontological differences,
+extracting high quality information from the web, very large ontologies the
+best examples of which are based on Wikipedia. You said some of those have
+been around for a while and what's different now is scale. Then you also
+talked about crowd sourcing and the opportunities for using human work to
+solve problems. What's novel maybe is the challenge that we face now in
+terms of scale or is it anything else that we should mention in terms of
+the novelty of these applications that you've outlined?
+
+Yes. I think you're right about that. I think it's the fact that some
+of these technologies coming together at the same time.  Now we have these
+large ontologies, we have the beginnings of open information extraction
+which means that now you can start extracting stuff from the web, compare
+it to what already existing in a large knowledge base and start having a
+virtuous loop where you're getting better and better and better. The other
+thing that is maturing now is the ability to do parsing of sentences,
+creating dependency parses, the fact that now you can actually  imagine
+having a dependency parse for every sentence on the web which means you can
+start identifying the roles of different tokens in a sentence so you can do
+better analysis. In that sense natural language understanding is making a
+step in terms of building on that for open information extraction, having a
+gold set of good data to bootstrap of and we have many data sets,
+structured data sets that we can build on. We have millions of excellent
+small data sets on the web sitting there in HTML tables. We didn't have
+that before and now we're also able to find the good ones from the bad ones
+much more reliably than we have in the past.
+
+There's one other thing that I would mention is we have a lot of data
+but I think we also need to ask: Who cares about it? I think we need to be
+very guided by what is the data that is actually of interest to people,
+which means that we need to make that data available to people who could
+care about it and could do stuff with it. I'll just take an example of one
+of the things we do here at Google which is our work with Google fusion
+tables. We let people upload their data and find data that exists but
+fundamentally we're letting people do something interesting with their own
+data, with others' data in particular journalists and it's the need that is
+driving the interest in data. I think it's important to ask all the time,
+'Yeah, we can reconcile all the data in the world but what is the data that
+people are actually looking for and interested in?' and so it's important
+to find outlets for evaluating the value of data in every step that we do.
+
+It's interesting that you say it's the collection of these
+technologies that have a higher impact together than they might do
+separately and there are some nice synergies between each of these.  You've
+outlined the importance of having interested parties so a committed user
+community can do something interesting with the data and thereby push how
+useful it is and the quality. My next questions are to do with the benefits
+and capabilities of the technology which I think you've already covered,
+that somehow these technologies together are basically allowing you to move
+from unstructured data scale to structured. You talked about having
+dependency parses for the whole web based on this collection. I'm wondering
+if you could say apart from what you said if there's any benefit that comes
+out and also the opposite of that: what are the scope or limits of these
+technologies? What would they be good for and where would they maybe not be
+as good for. I hope that's clear.
+
+I think in terms of the benefits the nice thing about the extraction
+from the web is that the web is about everything. So you have very, very
+broad coverage in terms of your domains. People write about any topic they
+want on the web, topics that they care about. The thing that makes that
+interesting is in database systems of knowledge based systems we're used to
+starting from a particular domain before we start an application. So we're
+going to deal with this aspect of medicine or a schema about professors and
+students. On the web we don't have that. We can't do that because the web
+is about everything so the whole idea of conceptualizing your domain,
+changes in a very profound way. The domain is everything in the world,
+there's no boundary between where one domain ends and another domain
+starts. That's the benefit because you get a lot of breadth in what you're
+doing.
+
+The challenge is that if you want to go deeper into a particular
+domain how do you do that? Suppose you're extracting stuff on the web but
+then you're working on a particular domain of biology and you have an
+ontology for that, a gene ontology, you want to be able to get the benefits
+of the domain specificity and the general scope of the web. That's an area
+of research I would love to see more attention put to it. I guess what I'm
+saying is how do you benefit from the breadth but not give up on the depth
+when you actually need it?
+
+Very, very interesting and a great research challenge having breadth
+and depth at the same time. Out of this collection of tools that you're
+considering are there any design principles that come out? If you imagine
+that I'm going to be building the next generation of this set or elements
+of this set are there any design principles you think one should follow in
+order to have the maximal performance?
+
+I'm not sure you finished your question. You got cut off there but
+I'll take it as it is. I'll point out two things. One is, you mentioned
+going between unstructured data and structured data. I think for certain
+things unstructured data is good so I don't think we should be thinking all
+the time in terms of only structured data. We should be thinking of
+answering the information need that people might have and if some of them
+are in documents then we should understand the structure of that document
+or what that document gives us without necessarily having to understand all
+the details that the document is giving us in a structured fashion. We
+shouldn't go structured all the way.
+
+Another thing I would say is that we need to think of multilingual
+aspects of all this, especially in Europe, right from the very start. Most
+of the research is done in English but it's interesting to consider from an
+architectural point of view from the very beginning how everything that
+you're doing scales to different languages. Different languages can also
+give you different perspectives in particular domains. You wouldn't want to
+learn about Japanese culture or art in English; that doesn't make sense.
+You're going to be able to get much more depth about particular topics if
+you go to the language in which they're created. That's one thing to keep
+in mind.
+
+That's two great principles: consider unstructured data and
+structured data together, don't think that the goal is just to move to a
+structured platform which I guess was also one of the principles under the
+IBM Watson system that I heard from Chris Welty [sounds like 16:01] and
+also, which of course is important in a European sense, to consider
+multilinguality [sic] from the very beginning.
+
+My next two questions I'll put together and they are: what are the
+performance metrics one has to consider? If I'm going shopping now for
+commercial versions of these tools what performance metrics would I look at
+to measure which are somehow better than the other? The second one is what
+are the tradeoffs? When you're designing and building these systems what
+are the tradeoffs one has to consider as a designer or architect?
+
+I think you got cut off there again but again in terms of the
+question in terms of performance it depends on what part of your system
+you're talking about. I'm assuming you're talking about the part of the
+system that is interacting with the user not necessarily the part of the
+system that is doing all the pipelines of analysis and processing that you
+do off line. Those can take as long as they need as long as they're good so
+the trade off is try to do as much in advance as possible so the response
+time can be really good. In terms of response time, at Google we have this
+principle that if it's not fast then people don't care no matter how good
+it is, people don't have patience so in terms of response times you want
+the response times that you get from a search engine. You need to do
+whatever smarts you can in order to have fast response time. This means
+putting stuff on flash, main memory, getting great index structures,
+guessing what the user might want and stuff like that.
+
+In terms of interfaces you also want to test your user interfaces all
+the time, so you want to make sure that people find them intuitive. One
+thing that we often suffer from is having user interfaces that are too busy
+so people can't actually find what they need. People have very limited
+attention, you want to make sure they get their answers, they know where to
+ask their questions. You want to be able to anticipate questions so, for
+example, search engines give you auto complete for queries. You can imagine
+generalizing that to structured data. In fact you have to because you can't
+assume that people will know the schema that your system stores its data
+in. So you need to be able to suggest ways of asking questions that you can
+interpret. I don't know that you have, when you say going shopping for
+systems right now, I don't know that you have much selection in terms of
+what to buy. These things are yet to be built.
+
+Okay, that's interesting. The systems that we build should be fast,
+as fast as search engines and one of the principles one uses is to do as
+much as you can beforehand. That's cool. Maybe I'll wrap up on the
+technology side. Apart from what you've mentioned already, just for
+completeness, is there anything that you think is missing? That, in the
+work that you're doing you think, 'If only I had this my life would be a
+lot easier.' If somehow you had a magic wand to create a new technology, or
+is it already in the list that you've given me?
+
+If there was a way of taking a natural language question and
+translating it into some form of structured query that could be answered
+from a database when the answer is there that's what I would like but
+people are working on that in various forms. Maybe one thing that I will
+emphasize is I work on structured data at Google but the vast majority of
+queries on Google are not for structured data. I need to think of myself as
+blending into the vastness that is what people care about. Taken out of my
+context I think the thing to keep in mind is: What is the user trying to
+achieve? The user is not getting up in the morning and saying, 'I need to
+be able to ask queries about structured date in a particular domain.' The
+user is trying to do their job, so the question is where is it that the
+technology that we are building can we fit in to help the user? We need to
+look at what is the perspective of the task from the user's point of view
+and see where it is that it can fit in. It might not be front and centre
+the way we often imagine it to be. This is important because you're going
+to be dealing with many different kinds of user tasks and each one of them
+you have to apply the same principle: where is it that our technology can
+help? And make sure that you fit it right in there in the most effective
+way for the user because that's where the wins are going to be.
+
+That was a great rallying cry to really think about the tasks and
+needs of the user and where the technologies can fit into that best. That's
+a good way maybe to finish on the technology focussed questions.  I'll move
+on to the impact side so I'd like to ask you about the potential impact of
+the technologies you were talking about before. Imagine that they all start
+working perfectly what would the impact be? You can talk about impact in
+many ways. It could be from a technical, academic, societal, economic,
+business or policy point of view. What will the impact of this be in the
+near to medium term?
+
+I think the impact can be huge. I'll give you an example of what I've
+enjoyed mostly in our own work on fusion tables. The goal of fusion tables,
+this is the Google fusion tables, the tool that comes out of my team. Our
+goal was to make databases easy to use which has been something that people
+have talked about for a while. The most gratifying set of users that we've
+had over the last few years are journalists. Journalists try to tell a
+story. They want to put data in the story in order to back it up or in
+order to make it more interesting or more interactive. The nice thing about
+journalists is they have many eyes coming to their sites; they are the
+place where information gets a huge fan out and they work in any kind of
+domain. To me that's sort of an example of if you enable the people who
+have the data and have the attention of their readers to bring data to bear
+then you're making a huge impact. We've had journalists from all over the
+world dealing with crime statistics, riots in London a couple of years ago
+or even in crisis response situations when people are looking for where
+there's a shelter they can go to. If you bring data to the right people at
+the right time, whether it's in times of crisis, whether it's in time of
+reading a newspaper article, whether it's in time of trying to make a
+decision about who to vote for, whether it's about looking at trends and
+really grounding discussions, political discourse, in data. Once that
+becomes the norm it's easier to bring data to bear on a problem the impact
+can be enormous. The possibilities here are endless.
+
+I'll give you one other example. Two months ago after the massacre in
+the school in Connecticut some journalists went and looked for the records
+of who applied for a gun permit in two counties in New York State,
+Westchester county and another county.  This is public information so
+there's the Freedom of Information Act which says the public has a right to
+see this data but between getting the data and between the fact that it's
+formally public, until somebody put it on a map and you could go and see
+exactly in your neighbourhood in which house somebody has a permit for a
+gun, this is not people that bought guns, this is people that applied for a
+permit or got a permit. That distance is huge; now when that data came
+about the newspaper was shunned, they got harassed. 'Why are you putting
+this data up? I don't want to know who on my street has a gun permit and
+who doesn't. In fact, if I live there and I don't have a gun permit I
+certainly don't want people to imagine I'm an easier target for a burglary
+or something like that.'
+
+This data set got a huge amount of attention. That to me is a huge
+impact because it's starting to lead to a discussion about what data should
+be made public. Imagine starting to put this data together with other data
+sets, like sex offenders or something like that: who are the sex offenders
+that also have gun permits? You're starting to get into a whole new realm
+here where data is playing a much more critical role. The impacts are going
+to be huge. This applies not only in public discourse; this applies in any
+domain where you're doing research.
+
+My favourite example is the water people. The water industry is
+making decisions based on data that is several years old. You go into a
+village in Africa, you put in a well so they have clean water and you check
+off on a spreadsheet that this village has clean water. But then six months
+later the well breaks and it takes two years until that new information
+gets propagated to the right people. Today, there's no reason why this
+information can't be updated within 24 hours. There are industries that are
+making decisions based on very old information and if you can change that
+you can make profound impact on society. I could go on and on about this
+but I truly believe in the fact that data can change a lot of things.
+
+That's great. Bringing the right data that's up to date to the right
+people in the right form and integrating the various data sets together
+basically changes people's and society's perception. You're really creating
+a new view that supports decision making and discussion. I think that's
+quite profound. I don't want to take up too much of your time. To finish up
+I just have a meta level question for you which you can either answer now
+or answer by email. As we're conducting a series of interviews with all the
+prominent people whose opinions we want to take and put into our white
+paper if there's any individual or organization that you think we should
+also speak to please let me know.
+
+Okay, I will probably take that question mostly offline. You're
+probably speaking already to Raghu Ramakrishnan. He's had some valuable
+experience at Yahoo. Panos Ipeirotis from NYU. He's the guy who's doing a
+lot of crowd sourcing work; he's a computer scientist in the business
+school which I think is an interesting place to be. I'll take this offline
+and think about more names.
+
+Okay. Thanks for that. That's the end of the interview Alain. As I
+said, I'll clean up the interview once it's finished and as you're happy
+I'll send it to my colleagues it'll go up in the blog soon-ish. I'd just
+like to finally thank you a lot for your time, for giving your valuable
+time up for us. Thank you very, very much. This is going to be very, very
+valuable for our white paper.
+
+Thank you very much. These were great questions. I'm glad you're
+doing this. I'm looking forward to see what you come up with.
+
+Have a good rest of the day Alain. Thank you again.

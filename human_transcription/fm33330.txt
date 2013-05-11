@@ -1,0 +1,503 @@
+I'm Bill Thompson and I have two lives in this. I work as head of
+Partnership Development within the BBC's archive development group where my
+responsibilities are around figuring ways to get the most value out of
+BBC's archive which it's collected over the last 90 years. It's infinite.
+Well, not infinite, but it's a very wide variety. I'm also a technology
+journalist and commentator where I appear weekly on a show on BBC One
+service radio called 'Click' and write for various magazines and do other
+things. My background is as a technologist, as a former [sounds like
+0:00:38] recovering computer programmer, and as someone who's observed
+closely what's happening within particularly the evolution of online and
+the web for the past 20 to 30 years.
+
+Okay. That's a great intro Bill. I'm sure you'll have something
+interesting to say. So the first question is on technology. From the white
+paper point of view we're looking to tell the commission which of the hot
+or emerging technologies which should be invested in, in the near to medium
+term related to big data. So, given a horizon. 2020 is coming up soon. This
+is an opportunity to influence where the millions of Euros are spent
+funding various research programs. There could be one particular technology
+which you think is important, or there could be a set of technologies which
+you think, 'Okay. These are the ones that should be looked at or require
+further investment.' So, could you describe these technologies briefly and
+say what's novel about them from your point of view?
+
+The thing is I'm a bit of a big data skeptic. I've seen far too many
+phenomena emerge in the computing industry and come and be inflated and
+then disappear. At some point, somebody applies a nice, convenient label to
+them like Fourth Generation Languages. You may remember them. Or cloud
+systems. Part of the problem I have with the current approach to big data
+is that I remain to be convinced that there is a fundamental issue here
+that merits the degree of attention that it's receiving in terms of how we
+are coping with large data volumes, what we're trying to get out of them,
+and the speed with which we are acquiring data. I think there are lots of
+changes going on, but taking that... Stepping back slightly and taking a
+more historical perspective, there doesn't seem to be a completely new
+paradigm here.
+
+There doesn't yet seem to be to me a convincing argument that the
+world has changed so much that we need a completely different approach. We
+haven't crossed a threshold so much as seen the evolution development of
+many different smaller components around sensor networks, around the ways
+we store and move data around on very high speed networks, and around some
+of the models for data processing. But, as I say, I remain more skeptical
+than most people about the computing science fundamentals that underpin
+this. If you look at the companies who are doing the work in this area --
+the Oracles, the IBMs and people like that -- they're just continuing down
+a path they've been carrying on for 30, 40 years with database systems.
+
+Okay. There are two points that come up in what you said, Bill. One
+is; don't spend the money at all rather than which area we should spend the
+money on. So you may want to comment on, do you think it's worth
+investment? To be more specific is there any subset, any particular subarea
+of what's labelled big data where you think or do you think there's too
+much money being spent there at the moment? The other is in my interviews,
+I've heard from several people that what they see is happening is they see
+a collection of technologies which have each had some incremental
+improvement. This collection of technologies when they come together,
+provides something that seems to be very new.
+
+For example, the ability to now do information extraction at web
+scale which relies on information extraction technologies improving but
+also other frameworks coming into play that are easy to use such as Hadoop.
+So there are two comments there. One is, is there anything we should
+invest? Or should we tell the commission 'stop funding this area'? And then
+secondly, is there anything in this incremental improvements of collections
+of technologies now producing something which is somehow different?
+
+To answer your first question, there are issues being raised and
+there are fundamental technologies being developed here which will merit
+from investment in the way that the EU has invested in early stage
+technology for many years, more or less successfully, but certainly has
+done it. I don't think the argument I'm making is that we don't need to
+spend some money here to ensure that things develop in a way which supports
+the broader aspirations of the European community. And I mean those both
+social and economic if you like. Simply because, as you've said, there are
+improvements in certain key technologies around the ways we store and
+process these data. Around the things that we can extract from it around
+the ways in which we can deploy the core technologies.
+
+So, there are improvements that could be made and ways that it could
+be made better. If you look at database systems for example, we can see how
+current models start to strain with the data volumes that are available to
+us and how some of the big scientific research projects, and what's
+happened at CERN with the LHC is a good example, have had to look very
+carefully at the ways in which they manage those data stores. So, there are
+real technical issues, but I think there are constellation of technical
+issues. Each one merits some attention because solving them can lead to
+economic gains. It can lead to new markets. It can lead to different ways
+to think about solving some of the social problems that face us.
+
+My skepticism is more about pulling everything together under the
+phrase 'big data'. That's partly because, as I said, I don't think the
+phase change has happened. I don't think that there is a disjunction
+between the way we used to do things and the way we do things now which is
+great enough for us to think, 'Well. It's a whole new world and everything
+is different.' I think everything is mostly the same and it's part of a
+continuum of the increased access to digital tools and technology, to the
+ways in which we are basing decision making in sciences, in social science,
+in politics, in our education, in our everyday life, in all sorts of areas
+around the things we are told by the databases and the databased systems
+that surround us.
+
+So, the increased reliance of the wider society and wider economy on
+digital tools and technology creates an issue. The decision to label that
+one particular set of approaches -- the big data approach -- I fear will be
+more confusing than enlightening and in particular will be used to smuggle
+in another collection of technocratic approaches to problem solving that
+will not benefit us. So, what I'm interested in is how we look at the
+technical issues that face us and the spaces for investment with things
+like very high speed networks, compact data stores, data analysis in
+particular, and how we develop software that can deal with those volumes of
+data and come up with analyses that we can respect and value and make
+decisions on the basis of, in an open and transparent way. Without creating
+yet another big massive black box of technology that the populace as a
+whole are just expected to accept as there and believe.
+
+So, what I really want to do is to unpack the big data model to say,
+'Okay. What are the actual areas there?' And you've done this in your
+thinking within the big project. I think the analysis that you have of the
+different techniques is very, very useful because it allows us to talk
+about some of the technical issues, some of the data storage issues, some
+of the societal issues, and to try to tease them out. I think that's the
+best approach to take. And allowing it all to be encapsulated as big data
+creates the danger that we will lose a sense of the granularity of what's
+going on. Lose a sense of how those components fit together.
+
+And for me the issues that come from, for example, having a sensor
+rich environment. The fact that, for example, one of the issues that
+particularly concerns me, millions of us, tens of millions in Europe, are
+carrying around smartphones that are essentially sophisticated data-logging
+devices that give us access to the internet and allow us occasionally to
+make phone calls. And that much of this data is being stored by the phone
+companies and by the organisations who sit behind those phones and is
+fairly easily accessible to the authorities, should give us pause.
+
+We have instrumented our environment by carrying around devices like
+this one and we're not thinking about the implications. The big data
+thinking that is currently going on is largely about how we improve the
+quality of data capture, how we improve the quality of the storage and
+analysis of that data, how we improve the ability to make inferences from
+it, and far too little about what this means for the wider society. So,
+right back to the start of your question, yes, it's worth spending money on
+it, but I think we should be spending money on the individual bits of it
+and be quite skeptical about that bigger picture model. And within that
+skepticism start, at this stage, asking those very important societal
+questions about what will happen when all of these things are fixed.
+
+Okay. That was very interesting. Of course, there's the point that
+you know as well as me or even better that one's ability to attract large
+amounts of funding from the EU and from national governments tends to
+depend on having a nice label. And so you have a chicken and egg with that.
+That you create a label in order to attract the funding so that you can do
+something interesting, rather than the other way around sometimes. But
+that's somehow life.
+
+I had two follow-up questions. One is you talked about the
+technological side and the social side. So imagining that we have this pot
+of money that's about to be allocated for what's labelled as big data and
+you want to give a message to the EU about how they might divvy up this pot
+of money. If we talk about specific technologies, would there be specific
+areas -- you may have mentioned them already such as high speed networks --
+that you would say, 'Okay. Look. These are a couple of particular specific
+areas where you should put the money'? Then maybe other areas you may want
+to say, 'These are some areas which you really shouldn't spend the money
+on.' Sorry, a third follow-up is you mentioned the social sciences. Do you
+think there should be a specific allocation of funds? I guess you do in the
+social area, but maybe you want to say a little bit more about how those
+funds should be spent. So, we're talking about the funding here. So,
+specific technologies which you think, 'Okay. Let's spend the money here.'
+Specific technologies where you should say, 'Well, let's not spend the
+money here.' And then the social side. So, the areas or elements of the
+social side where you think, 'Okay, let's start funding these.' And I guess
+maybe from what you were saying that this social funding would be coupled
+with the technology funding, so it might not be a separate theme but the
+two might go together. So, I hope that was clear Bill.
+
+It was. I suppose the analogy I would use before I get into the
+details is, Europe's approach to data protection. The fact is that for 20
+years now, the European approach to data protection and the limits that are
+placed on how technologies can be deployed has been quite distinctive and
+contrast completely with the US approach. And they are only just really now
+started to realise there might be benefits to the European approach. So,
+what happened there was the ability to develop a framework for regulation,
+in this case, before the technologies emerged. And that's always a good
+idea because if you can have your regulatory framework in place, while the
+technology is developing, if you can anticipate where things are going to
+go and have the rules in place to ensure that the impact is therefore
+either tempered if it's some incredibly disruptive technology. Or something
+which is not so disruptive to the things in society that you value. Then it
+becomes much easier trying to retrofit those rules and regulations as we
+discover again and again, is incredible difficult. Putting increasing
+regulation in the states in a world where Facebook is there and Mark
+Zuckerberg and colleagues are spending millions of dollars lobbying in
+Washington is going to be as difficult as getting gun regulation. I would
+say when it comes to big data, I don't expect my solitary voice crying in
+the wilderness saying, 'This is just a bit of marketing hype that's been
+pulled over a set of disparate technologies in order to allow people to get
+funding for them from public and private services' is going to have any
+impact.
+
+So, let's accept that the model there is going to continue. Given
+that, we should be asking ourselves now, where does it end? In 2020. In
+2025 when we have a very sensor rich environment. When we believe we've
+solved the problems of capturing the data, not losing it as it's
+transferred over networks into a massive parallel data stores that are
+fully cross-linked and cross-referenced. Where we can both extract
+knowledge and derive inferences from that data in a reasonably reliable or
+certainly within a publicly stated margins of error. Where we can do all
+that. Where, for example, we have enough big data for driverless cars to
+happen. Where there was enough traffic sensor data and reliable systems in
+cars for us to have taken drivers out of cars. What sort of regulatory
+environment would we want those systems to be deployed in and can we start
+the move towards that regulatory environment now so the laws are in place
+when the technology arrives? So, that I think would be a really important
+research project.
+
+It's to combine futurism with planning the legal framework and the
+societal framework in a way that's not done very often and can offer very
+good outcomes. So, that's the sort of thing that I'm thinking about. When
+it comes to specific technologies, for me, I think that enough money is
+going to be spent elsewhere solving a lot of the technical issues because
+there is so much money to be made out of it.
+
+The fact is that Google, Facebook, and Amazon, those companies, and
+Microsoft indeed, are investing vast amounts of money in solving these
+problems because they see significant commercial advantage. What they won't
+be investing vast amounts of money in are basically, solutions for the
+poor. It's like big pharma will spend a lot of money on drugs for heart
+disease and not very much on drugs for malaria because they don't make
+enough money out of keeping poor people alive. Well, it may well be that
+there are gaps within the technology frameworks that are evolving already
+that are specifically relevant to the non-commercial use of these systems
+where there is no obvious advertising. Where there is no obvious
+sharecropping of contributed value by the users. That would be an
+appropriate area for public investment.
+
+Now, I'm not speaking for the BBC in any sense here. I'm not the BBCs
+big data person or I'm not a BBC policy person, but the BBC has a mandate
+to offer the things it makes and the things it delivers to everyone in the
+UK or the licence fee payers as they're called on a free, fair, and equal
+basis. It has a... [break in audio]
+
+The rules in the BBC, meaning that we don't do advertising and also
+we have to take very good care of the personal data that is entrusted to
+us. In a world of television broadcasting, the BBC knew very little about
+its viewers because you had radio waves going out from central towers being
+picked up by dumb televisions and displayed in peoples' living rooms and
+nobody knew who was watching what. In a world of iPlayer and video-on-
+demand services, in theory, the BBC could know a great deal about everyone
+who watches every programme. And the BBC chooses not to record and exploit
+that data is a really interesting question. Because there's public value in
+there but there's potentially also invasions of privacy. And the BBC, as a
+corporation, will always err on the side of respecting its viewers. We are
+mandated to do that. Other organisations will not do that in the same way.
+So, the solutions that are going to come out of the massive project within
+these large corporations to manage user data are not necessarily those that
+are going to be useful or valuable to public service broadcasters as they
+move into this sphere. They're not necessarily going to be useful or
+valuable to local governments, or elected officials, or individuals at
+home.
+
+So, I think there is real work to be done there to either fill those
+gaps or provide support for the commercial companies to help them fill the
+gaps in collaboration and partnership to ensure that the technologies that
+end up being deployed are capable of being deployed in the public interest.
+We've seen again and again with the developments of technology where that
+is not the case. I think the evolution of Microsoft Office and its
+deployment in schools and colleges is a good example of how a system, a
+toolset built entirely to make profit for one company, and designed to
+serve the interests of industry was shoehorned into education. To the
+detriment of hundreds of millions of students who came out of school having
+been put off information technology, never having learned really anything
+about the computer they were using equipped with a skill set that only
+fitted them to go into organisations that had bought into the de facto
+monopoly that Microsoft established. We don't want that to be the case with
+the collection of technologies that together constitute the big data
+environment. I think that would be an important part of it.
+
+ There's also -- this is my broken record -- the fact that unless
+individuals understand how these systems work and how they are created and
+what opportunities they offer and what threats they oppose, and how they
+are being deployed, then we will have a society which is not in control of
+its own destiny. So, as well as the social side of understanding the
+implications and the regulation, there's also an urgent need for education.
+As part of the broader attempt to teach people about the implications of
+going online, and use of the internet, and the deployment of information in
+communications technologies in their lives. To appreciate how big data
+systems work, how they're constructed, what they can be used for, what they
+can't be used for, and to enable people to make assessment of the
+reliability and effectiveness of those systems, for me, becomes deeply,
+deeply important. If these tools are going to be deployed into a wider
+society, it needs to be a society that is prepared for them. And I spoke in
+terms of the regulation environment that governs their use and the broader
+understanding of what they are and what their disruptive impact could be.
+
+Well, thanks for that Bill. There are a couple of things you said
+there which resonate with other interviewees that I've had. I think there
+are two which come out. One is the EU versus the US. So, I was speaking to
+Andras Torry [sounds like 00:24:14], the founder of Semanta, and he was
+saying that the US has a lead in the big data area which it will maintain
+because of the difference between the US and the EU privacy laws. There is
+an inherent tension between open data and privacy. The one can't really
+fully resolve, so you have to choose whether you want one or the other. So,
+I guess he was advocating a US model and the EU privacy law somehow holding
+us back. This was also mentioned by Richard Benjamins who's a vice-
+president at Telefonica. He was complaining that he wishes that he could do
+the things with his mobile data that IT companies can do with their data.
+So, he would like to push the EU to allow companies like Telefonica to do
+more with their mobile data. So for example, they want to sell mobile data
+to allow retail companies to plan where there shops are. So, that's one
+issue which is this. There's a tradeoff between privacy and openness and he
+difference between the US and the EU. Let me ask you that first and then I
+can go over to my second point in a moment.
+
+I think the tension is not between open data and privacy because open
+data doesn't imply personal data and in fact the core of open data
+principles is that privacy is respected. So, I think we need to not put
+those two in opposition because they are not in opposition. I think it's
+dangerous thinking to say that they are. The Open Data Institute, the Open
+Knowledge Foundation are doing incredibly good and important work in
+navigating that distinction. So, there's a difference between the sense
+that personal data belongs to the organisation that collects it and the
+sense that it remains somehow belongs to the person who contributes it.
+Organisations in the UK and Europe like My Data and My Desk with their
+personal data stores that are currently being used, deployed by the
+Department of Work and Pensions are trying to construct services based
+around respect for individual and the data about them, that is as flexible
+as it can be to make it available for analysis. So if Telefonica wanted to
+use mobile data, to be anonymised I presume, to advise shops. Why don't
+they go to all of their customers and say, 'Would you be willing for your
+mobile data to be anonymised and used for this service and we will take
+five percent off your phone bill every month as a result?' Problem solved.
+
+Companies tend to just not to want to have to go through the trouble
+of getting consent because they don't actually value the personal data of
+their customers. So, I'm not prone to be sympathetic towards those
+arguments. And I'm not prone really to be sympathetic towards the argument
+that Europe's respect for individuals and their personal privacy is somehow
+a massive inhibitor to technology growth. I think there were so many other
+reasons why the US is more advanced in this sector. There could be a
+[inaudible 0:28:09] and have things to do with for example investors, and
+banking, and entrepreneurship and all of those things. That to blame the
+fact that we have a regulatory system which stops companies from
+arbitrarily my personal data for their profit, is I think pushing it
+slightly. So, I don't think there is an essential issue here, or rather I
+think the difference between the US and Europe is much deeper and that this
+is a bit of a smokescreen put up by companies who just like not to have to
+bother to properly respect or care for the personal data with which they
+have been entrusted. That's my main view on that.
+
+Okay. So, my second point was on, I guess, there were two points you
+made. One was that the EU can fill in the gaps of addressing the needs of
+EU citizens which we imagine will not be addressed by the large companies
+in the area and also relate to the fact that education is important
+otherwise we'll end up with the equivalent of Microsoft Office in schools
+which I won't say any more on. So this, I think, relates to two interviews
+I did. One was with somebody Uzman Hack [SP] who was at Cosm which was
+formerly Pachube. And he said he thought it was important that communities
+engaged and one way to do this was communities should be involved in
+acquiring big data. So he talked about examples where citizens were
+collecting radiation data after the Fukushima disaster and also collecting
+air quality data in the states.
+
+So citizens should be educated but they should be involved in the
+process from the very beginning and then they can engage in debate at a
+meaningful level which Alon Halevy from Google who's one of the people
+working on Google Fusion Tables which allows any citizen to have their data
+stored by Google. This public data was being used to good effect by data
+journalists. So, there you had the public collecting data which can be used
+by journalists to write interesting stories. I'd like you to comment on
+this. There's a need for education. There's a need for the EU to fund the
+areas where big data might be. Do you think that this community engagement
+is part of that? So is really the EU's funding areas to get the EU citizens
+to be involved with big data at all levels.
+
+I mean I would actually go beyond the EU. I think it's the EU's
+responsibility to make sure big data serves everyone in the world and not
+from the point of view of a very technocratic US IT community that is
+increasingly outside any effective regulation. I think there is a
+responsibility here that as these significant technologies are deployed to
+make sure, again, as with drugs, to make sure that fundamental research
+goes into areas that are not sexy, interesting, or attractive to large
+companies that are primarily concerned with shareholder value. This is what
+public funding should be doing. Not about replicating or replacing the
+things that will be funded anyway, but about providing a regulatory
+environment within which they are deployed to try to shape their
+development and where necessary to correct not market failure but
+imaginative failure.
+
+The value, for example, of say widely deployed sensor networks in sub-
+Saharan Africa could be enormous. We could be in a position to predict
+drought. We could be in a position to stop famines. We could do all of this
+but if the tools that we have to do those things were designed on the West
+Coast of the United States in order to allow affluent North Americans to
+manage the watering of their gardens, for example, then they're not going
+to work properly for those purposes. So, I think it is much bigger than
+just saying we need to protect the EU interest. We need to protect the
+interests of the wider world. Education is part of that because unless you
+know to ask these questions, you will accept the solutions that emerge and
+you won't know how  to participate in that debate. So, it really does
+matter.
+
+Having citizen participation therefore becomes important in two ways.
+The first, and I think I would agree with was Uzman was saying. The first
+is just that it's a good thing. That millions of people on the ground or
+even thousands of people on the ground can collect valuable data and it can
+be processed and used in useful, important ways. The second, of course, is
+that participation is a way to understanding. We can look at the success of
+citizen science projects like Galaxy Zoo for example or SETI at home or
+protein folding to see that if you give individuals the opportunity to
+actually do real science with the technology that's available to them, they
+will take those opportunities, and may in the process understand a bit more
+about how data is collected, how it's processed, and about the scientific
+process. So it is with big data as well.
+
+If we give people the opportunity to choose and participate in a very
+open and transparent way, then they will have much bigger insight into the
+way those same technologies are used to deliver adverts or used to
+influence their lives in other ways. It becomes a positively self-
+reinforcing cycle. The more you ask people to engage with these sorts of
+projects, the more you make them aware of the ways in which the data can be
+used for good, the more aware they will be of other ways in which it could
+be used and be in a position to make some choices about it. And the choice
+may be to say, 'Well, it's fine. I'm perfectly happy for my data to be used
+in these ways. Perfectly happy for all of this to happen because we see the
+broader benefits.' That would be a choice based around understanding rather
+than obfuscation.
+
+Okay. I have just two more questions for the interview, Bill. The
+first one is related to impact. So, let's take a positive view and say all
+your wishes come true. So, the EU begins to fund the areas which will
+support the, let's say, the citizens that may be neglected by big
+companies. What do you think the impact of this would be and you can talk
+about impact in any sense that you like including technical, societal,
+economic, policy, or business? So, a world in which the citizens are truly
+engaged and educated around big data.
+
+So, an easy one then. Well, it's the technocratic dream, isn't it?
+That you have active and engaged citizens who are in control of the
+technologies that shape their lives are making sensible, well-informed
+policy decisions that create a business and regulatory environment within
+which the market can flourish because it is appropriately regulated to
+serve both stakeholder interests and the public interest. So, yeah, the big
+picture is, 'Hey. Heaven.' The reality of course will be messier.
+
+I think the real impact would be if we think about the ecosystem
+model. Instead of having a few top predators that are profoundly commercial
+entities or governments serviced by those commercial entities and trying to
+control their behavior using regulations that are largely ineffective
+because the impetus to make more use of the data to make profit, to speed
+things up, or just to keep things running, would be so great that any
+attempt to regulate in the public interest would just crumble away, we have
+a more balanced system where we have a much more diverse ecosystem of big
+data users and applications that become self-balancing to some extent.
+Where there are alternatives. Where there is significantly more openness
+about how data is being collected, stored, processed, analysed, deployed,
+and used and what the implications of that are. So, that you've got a more
+balanced system. It's not that everything is perfect. It never is. It's
+more that we avoid some of the excesses either way of either limiting the
+deployment of these incredibly valuable technologies in ways that become
+socially damaging or technically damaging. Or allowing this sort of free
+for all that means that our privacy is completely diminished or vanished
+and that there is no way off the grid.
+
+So, I see the impact as being on all these levels. My view is that
+that would actually improve the quality of the technology. Rather than
+having this sort of the relatively closed worlds of a small number of
+massive organisations that largely determine the development and deployment
+of big data tools and services and everyone else having to fit in with the
+world they've created, we have a much more diverse market. We actually have
+a more creative environment within which innovation can flourish. Within
+which small companies have a reasonable chance of growing to the size where
+they could replace some of the large players. We avoid the monopoly
+situation that has happened so many times in the past in the world of IT
+and could well happen again in this particular area. So, I see it as being
+something that will have a positive market impact as well as a positive
+societal impact.
+
+Okay. Thanks for that very positive view, Bill. The last question is
+really a meta-level question. I'm interviewing a series of people. You're
+about number 14 or 15 at the moment. And at the end I ask each individual
+to either let me know straight away or to drop me a mail later on if they
+want to about who else they think I should be talking to in terms of
+individuals or organisations, or if there are any online resources that we
+should have a look at as we write our white paper.
+
+I'll drop you an email. Two obvious people to talk to if they're not
+already on your list are Dave Birch from Consult Hyperion who does a lot
+about electronic cash and financial markets where big data matters quite a
+lot. And he's very good on identity issues. And Katherine Corrick, who's
+currently working at the Open Data Institute. Her background is in advising
+organisations on their online strategies and she's quite an astute observer
+of the tech scene. She might be good as well. I'll send you both their
+details.
+
+Okay. Thank you for that Bill. So that's the end of the interview.
+Thank you very much for giving up your valuable time to us. So, I'll clean
+this up, send it to my colleagues in the big data, and it will go up on our
+blog and I'll let you know when it is. I'll also see you next week in
+Dublin at the EDF event. So, thank you once again.
+
+No problem at all. Good to talk to you. Hope it was useful for you.
+You take care. Bye.
